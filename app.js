@@ -42,13 +42,13 @@ function loadTask() {
   const link = document.createElement('a');
 
   //add a class name
-  link.className = 'delete-item secondary-content'
+  link.className = 'delete-item secondary-content';
 
   //set the innerhtml to the element
-  link.innerHTML = '<i class="fa fa-remove"></i>'
+  link.innerHTML = '<i class="fa fa-remove"></i>';
 
   // append the llink  to the  list
-  list.appendChild(link)
+  list.appendChild(link);
 
   //append the list to the ul
   document.querySelector('ul').appendChild(list)
